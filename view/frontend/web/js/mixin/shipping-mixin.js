@@ -21,6 +21,7 @@ define([], function () {
              * Determines if we should completely hide shipping block.
              */
             shouldHideShipping: function () {
+                return false;
                 return window.checkoutConfig.hideShippingMethods && this.rates().length === 1;
             }
         });

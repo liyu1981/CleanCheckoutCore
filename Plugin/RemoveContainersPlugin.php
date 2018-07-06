@@ -19,11 +19,12 @@ class RemoveContainersPlugin
      *
      * @var array
      */
-    const DISABLE_ELEMENTS = [
+    const DISABLE_ELEMENTS = [];
+    /*[
         'header'    => ['header.container', 'checkout.header.container'],
         'footer'    => ['footer-container'],
         'copyright' => ['copyright']
-    ];
+    ];*/
 
     /**
      * @var ScopeConfigInterface
